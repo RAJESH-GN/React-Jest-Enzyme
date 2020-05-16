@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Used Libraries for Test
+
+npm i --save enzyme jest-enzyme enzyme-adapter-react-16 ===> for using enzyme for testing and configuring an adaptor to enzyme
+
+npm i --save-dev babel-plugin-remove-react-properties ===>for removing the atttributes not required for production build and also add the config in Package.json seeing it from npm library
+
 ## Available Scripts
 
 In the project directory, you can run:
